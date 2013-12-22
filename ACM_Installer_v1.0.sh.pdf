@@ -34,8 +34,11 @@
 # * Build 11:                                                                #
 # - Bug Fixes                                                                #
 # - Testing new features                                                     #
+# * Build 12:                                                                #
+# - Built in PDF Formatting                                                  #
+# - Updating Stamps                                                          #
 ##############################################################################
-echo "ACM Installer V1 Alpha B11";
+echo "ACM Installer V1 Alpha B12";
 echo " ";
 echo "Options:"
 echo " ";
@@ -135,9 +138,10 @@ while true; do
     ;;
 esac
 done
-# XDA: http://goo.gl/m3vV48
-# Blog: http://androidpizza.blogspot.com/
+# XDA: http://goo.gl/xEdOa
+# Blog: http://www.androidpizza.blogspot.com/
 # Email: diamond.nigel75@Gmail.com
+# Sourcecode: https://github.com/Pizza-Dox/
 EOF
 	sync; busybox mount -o remount,rw /system
 	cp /mnt/sdcard/acm_temp.sh /system/xbin/acm
@@ -169,6 +173,7 @@ EOF
     ;;
 esac
 done
-# XDA: http://goo.gl/m3vV48
-# Blog: http://androidpizza.blogspot.com/
+# XDA: http://goo.gl/xEdOa
+# Blog: http://www.androidpizza.blogspot.com/
 # Email: diamond.nigel75@Gmail.com
+# Sourcecode: https://github.com/Pizza-Dox/
