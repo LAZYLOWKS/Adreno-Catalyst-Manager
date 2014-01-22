@@ -37,8 +37,10 @@
 # * Build 12:                                                                #
 # - Built in PDF Formatting                                                  #
 # - Updating Stamps                                                          #
+# * Build 13:                                                                #
+# - Misc Fixes & alot of Testing Done                                        #
 ##############################################################################
-echo "ACM Installer V1 Alpha B12";
+echo "ACM Installer V1 Alpha B13";
 echo " ";
 echo "Options:"
 echo " ";
@@ -55,7 +57,6 @@ while true; do
 	clear
 	echo "Installing ACM...";
 cat >> /mnt/sdcard/acm_temp.sh <<EOF
-#!/system/bin/sh
 echo "Adreno Catalyst Manager Version 1.0";
 echo "by Pizza_Dox";
 sleep 0.5;
