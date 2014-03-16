@@ -42,14 +42,14 @@
 ##############################################################################
 echo "ACM Installer V1 Alpha B13";
 echo " ";
-echo "Options:"
+echo "Options:";
 echo " ";
 echo "[I]nstall ACM";
 echo "[U]ninstall ACM";
 echo "[R]eboot ACM";
 echo "[E]xit ACM";
 echo " "
-echo -n "What would you like to do? "
+echo -n "What would you like to do? ";
 while true; do
 	read i
 	case "$i" in
@@ -134,7 +134,7 @@ while true; do
 	*)
 	clear
     echo " "
-    echo "Dude! U Drunk?"
+    echo "Dude! U Drunk?";
     sleep 2
     ;;
 esac
@@ -169,7 +169,7 @@ EOF
 	;;
 	*)
     echo " "
-    echo "Dude! U Drunk?"
+    echo "Dude! U Drunk?";
     sleep 2
     ;;
 esac
